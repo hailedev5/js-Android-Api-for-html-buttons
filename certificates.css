@@ -1,0 +1,70 @@
+body{
+    width:98%;
+    background-color:#225066;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(Gemini.png);
+    box-shadow: 2px 2px 12px #6bc1db;
+}
+        .logo-area { display: flex; align-items: center; gap: 5px;text-align: center}
+        .verified-badge { width: 18px; height: 18px; fill: #1DA1F2}
+#title{
+    color:Gold;
+    text-shadow:2px 2px 14px gold;
+    background-color:#3ca1bd;
+    border-radius:15px;
+    border: 5px solid gold;
+    text-align:center
+}
+    #certified{
+    color:rgb(186, 150, 103);
+     box-shadow: 2px 2px 12px #6bc1db;
+    display: block;
+    margin: -7% auto 20px auto;
+    margin-top: 60px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:1.2rem;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background:bisque
+}
+#molar{
+    color:#c76d00;
+    font-size:1.3rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 24px #c76d00;
+    animation: moveRight 10s ease-out infinite
+}
+@keyframes moveRight{
+    0%,100%{
+        transform: translateX(60%)
+    }
+    50%{
+        transform: translateX(-50%)
+    }
+}
+#mycerti{
+    background-color:#de6a7e;
+    border-radius:9px;
+    box-shadow:4px 4px 24px #de6a7e;
+    color:yellow
+}
+#codeliber{
+    height: 170px;
+    width:250px;
+    margin-left:30px
+}
+nav {
+    height: 100%;
+    background-color:#ebd09b;
+    box-shadow: 2px 2px 12px #6bc1db;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index:100;
+    position: sticky;
+    border-radius: 16px;
+}
